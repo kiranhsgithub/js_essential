@@ -1,3 +1,6 @@
+//to check the impact of global and local variables
+//function level scopes
+
 var x = 10;
 
 function newVariable() {
