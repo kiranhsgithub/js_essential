@@ -6,7 +6,7 @@ console.log("After slice");
 console.log("Original phrase : " + phrase);
 console.log("New Phrase      : " + afterSlice);
 
-var afterSplice = phrase.splice(5,5);
+var afterSplice = phrase.splice(5,6);//unlike substr in case of strings, this  changes original array
 
 console.log("After splice");
 console.log("Original phrase : " + phrase);
