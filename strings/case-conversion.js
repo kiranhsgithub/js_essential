@@ -1,10 +1,13 @@
-var firstName = "John";
-var lastName = "Doe";
+var name = "John Doe";
 
-var firstUpper = firstName.toUpperCase();
-var lastLower = lastName.toLowerCase();
+var nameUpper = name.toUpperCase();
 
-console.log("Original String  : " + firstName);//firstName remains unchanged
-console.log("Uppercase String : " + firstUpper);
-console.log("Original String  : " + lastName);//lastName remains unchanged
-console.log("Lowercase String : " + lastLower);
+console.log("Original String  : " + name);//name remains unchanged
+console.log("Uppercase String : " + nameUpper);
+
+var protocol = "HTTP Protocol";
+
+var protocolLower = protocol.toLowerCase();
+
+console.log("Original String  : " + protocol);//protocol remains unchanged
+console.log("Lowercase String : " + protocolLower);
