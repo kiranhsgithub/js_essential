@@ -45,4 +45,5 @@ style rules for javascript :-
                 otherFunction();
             }
         ```
+* Always use semicolon to end the statement
 
