@@ -22,27 +22,27 @@ style rules for javascript :-
 ```
 * Define function before you call them
     * Wrong
-```javascript
-    
-    function someFunction() {
-        otherFunction();
-    }
-    
-    function otherFunction() {
-        //some code
-    }
-```
+        ```javascript
+
+            function someFunction() {
+                otherFunction();
+            }
+
+            function otherFunction() {
+                //some code
+            }
+        ```
 
     * right
     
-```javascript
-    
-    function otherFunction() {
-        //some code
-    }
-    
-    function someFunction() {
-        otherFunction();
-    }
-```
+        ```javascript
+
+            function otherFunction() {
+                //some code
+            }
+
+            function someFunction() {
+                otherFunction();
+            }
+        ```
 
