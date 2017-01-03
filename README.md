@@ -21,7 +21,7 @@ style rules for javascript :-
     }
 ```
 * Define function before you call them
-..* Wrong
+    * Wrong
 ```javascript
     
     function someFunction() {
@@ -32,7 +32,7 @@ style rules for javascript :-
         //some code
     }
 ```
-..* right
+    * right
 ```javascript
     
     function otherFunction() {
