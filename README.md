@@ -8,9 +8,11 @@ style rules for javascript :-
 * For a block of code (if, for, while, function) curly braces are opened in the same line as that of block start
     ```
     if (x) { 
-    //code        
+    //code       
+
     } else {    
-    //more code        
+    //more code
+
     }
     ```
 * 
