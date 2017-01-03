@@ -33,7 +33,7 @@ style rules for javascript :-
             }
         ```
 
-    * right
+    * Right
     
         ```javascript
 
