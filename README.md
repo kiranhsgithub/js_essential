@@ -7,12 +7,10 @@ style rules for javascript :-
 * When naming Objects Capitalize the first letter
 * For a block of code (if, for, while, function) curly braces are opened in the same line as that of block start
     ```
-    if (x) {
-
-        //code        
+    if (x) { 
+    //code        
     } else {    
-
-        //more code        
+    //more code        
     }
     ```
 * 
