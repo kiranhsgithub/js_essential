@@ -32,7 +32,9 @@ style rules for javascript :-
         //some code
     }
 ```
+
     * right
+    
 ```javascript
     
     function otherFunction() {
