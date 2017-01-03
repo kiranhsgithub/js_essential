@@ -15,8 +15,10 @@ style rules for javascript :-
     }
 ```
 * always use blocks even with single line of code after if condition 
-```
-
+```javascript
+    if (x) {
+        console.log("Just one statement within if block");
+    }
 ```
 
 
