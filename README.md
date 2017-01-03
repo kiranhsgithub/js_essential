@@ -20,6 +20,27 @@ style rules for javascript :-
         console.log("Just one statement within if block");
     }
 ```
-
-
+* Define function before you call them
+..* Wrong
+```javascript
+    
+    function someFunction() {
+        otherFunction();
+    }
+    
+    function otherFunction() {
+        //some code
+    }
+```
+..* right
+```javascript
+    
+    function otherFunction() {
+        //some code
+    }
+    
+    function someFunction() {
+        otherFunction();
+    }
+```
 
