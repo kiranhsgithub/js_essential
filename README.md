@@ -9,11 +9,9 @@ style rules for javascript :-
 ```javascript
 
     if (x) { 
-        //code       
-
+        //code
     } else {    
-    //more code
-
+        //more code
     }
 ```
 * always use blocks even with single line of code after if condition 
