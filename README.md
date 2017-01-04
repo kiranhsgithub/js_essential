@@ -14,7 +14,7 @@ style rules for javascript :-
         //more code
     }
 ```
-* always use blocks even with single line of code after if condition 
+* Always use blocks even with single line of code after if condition 
 ```javascript
     if (x) {
         console.log("Just one statement within if block");
@@ -46,4 +46,5 @@ style rules for javascript :-
             }
         ```
 * Always use semicolon to end the statement
+* Always use var when declaring a variable
 
