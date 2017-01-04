@@ -1,0 +1,1 @@
+jQuery("#myDiv").addClass("highlight");
