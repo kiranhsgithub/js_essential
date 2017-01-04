@@ -52,32 +52,39 @@
         console.log("\"" + str2 + "\"         DOESN'T end with " + endExp);
     }
    
-    var charOccurrenceExp = /hel+o/;
+    var oneOrMoreCharOccurrenceExp = /hel+o/;
     var zeroOrMoreCharOccurrenceExp = /hel*o/;
+    var zeroOrOneCharOccurrenceExp = /hel?o/;
     
     str1 = "helo";
     str2 = "hello";
     var str3 = "helllllllo";
-    var str4 = "seven hells";
+    var str4 = "hellso";
     var str5 = "heo";
     
     
-    console.log("Regex: " + charOccurrenceExp);
+    console.log("Regex: " + oneOrMoreCharOccurrenceExp);
     console.log("Regex: " + zeroOrMoreCharOccurrenceExp);
+    console.log("Regex: " + zeroOrOneCharOccurrenceExp);
     
-    console.log(str1 + " match " + charOccurrenceExp.test(str1));
+    console.log(str1 + " match " + oneOrMoreCharOccurrenceExp.test(str1));
     console.log(str1 + " match " + zeroOrMoreCharOccurrenceExp.test(str1) + "\n");
+    console.log(str1 + " match " + zeroOrOneCharOccurrenceExp.test(str1) + "\n");
     
-    console.log(str2 + " match " + charOccurrenceExp.test(str2));
+    console.log(str2 + " match " + oneOrMoreCharOccurrenceExp.test(str2));
     console.log(str2 + " match " + zeroOrMoreCharOccurrenceExp.test(str2) + "\n");
+    console.log(str2 + " match " + zeroOrOneCharOccurrenceExp.test(str2) + "\n");
     
-    console.log(str3 + " match " + charOccurrenceExp.test(str3));
+    console.log(str3 + " match " + oneOrMoreCharOccurrenceExp.test(str3));
     console.log(str3 + " match " + zeroOrMoreCharOccurrenceExp.test(str3) + "\n");
+    console.log(str3 + " match " + zeroOrOneCharOccurrenceExp.test(str3) + "\n");
     
-    console.log(str4 + " match " + charOccurrenceExp.test(str4));
+    console.log(str4 + " match " + oneOrMoreCharOccurrenceExp.test(str4));
     console.log(str4 + " match " + zeroOrMoreCharOccurrenceExp.test(str4) + "\n");
+    console.log(str4 + " match " + zeroOrOneCharOccurrenceExp.test(str4) + "\n");
     
-    console.log(str5 + " match " + charOccurrenceExp.test(str5));
-    console.log(str5 + " match " + zeroOrMoreCharOccurrenceExp.test(str5) + "\n");    
+    console.log(str5 + " match " + oneOrMoreCharOccurrenceExp.test(str5));
+    console.log(str5 + " match " + zeroOrMoreCharOccurrenceExp.test(str5) + "\n");
+    console.log(str5 + " match " + zeroOrOneCharOccurrenceExp.test(str5) + "\n");
     
 }());
