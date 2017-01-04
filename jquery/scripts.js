@@ -1,2 +1,3 @@
-jQuery("#myDiv").addClass("highlight");
-jQuery("li:last").addClass("highlight");
+$("#myDiv").addClass("highlight");
+$("li:last").addClass("highlight");
+$("p:not(:contains('specified'))").removeClass("highlight");
