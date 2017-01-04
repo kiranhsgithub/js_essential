@@ -11,4 +11,6 @@ $("#fiveSeconds").hide(5000);
 $("#fiveSecondsFadeout").click(function() {
     $(this).fadeOut(5000);
 });
-
+$(document).ready(function() {
+    $("#onloadModification").text("The contents of this paragraph are dynamically modified by using jQuery");
+});
