@@ -7,3 +7,6 @@ if(a === undefined) {
 } else {
     console.log("a is defined");
 }
+
+b = 7;
+console.log("b = " + b);
