@@ -17,5 +17,5 @@ function a() {
 var myVar = 1;
 a();
 console.log("outside:",myVar);
-c();
+c();//fails here 
 
